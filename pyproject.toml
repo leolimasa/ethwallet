@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ethwallet"
+version = "0.1.0"
+description = ""
+authors = ["Leonardo Sá <leo@leo-sa.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+web3 = "^5.30.0"
+mypy = "^0.971"
+ECPy = "^1.2.5"
+pycryptodome = "^3.15.0"
+
+[tool.poetry.dev-dependencies]
+jedi = "^0.18.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
